@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  z-index: 100;
+}
+
+.dots .dot {
+  width: 38px;
+  height: 8px;
+  opacity: 0.3;
+  display: inline-block;
+  margin: 0 12px 0 0;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.dots .dot:hover {
+  opacity: 1;
+}
+
+.dots .azul {
+  background: #00ADE8;
+}
+
+.dots .roxo {
+  background: #E575FA;
+}
+
+.dots .verde {
+  background: #BCE649;
+}
+
+.dot.active {
+  opacity: 1;
+}
+
+.slide-wrapper {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: none;
+}
+
+.slide-wrapper .suplemento .particles-frente {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.slide-wrapper .suplemento .pote {
+  position: absolute;
+  right: 12%;
+  bottom: 0;
+  z-index: 9;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.slide-wrapper .suplemento .luz-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.slide-wrapper .suplemento .particles-tras {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 7;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.slide-wrapper.azul {
+  background: url(./azul/bg-azul.jpg);
+  background-size: cover;
+  z-index: 50;
+}
+
+.slide-wrapper.azul .pote {
+  width: 28%;
+}
+
+.slide-wrapper.roxo {
+  background: url(./roxo/bg-roxo.jpg);
+  background-size: cover;
+  z-index: 40;
+}
+
+.slide-wrapper.roxo .pote {
+  right: 0;
+  width: 60%;
+}
+
+.slide-wrapper.verde {
+  background: url(./verde/bg-verde.jpg);
+  background-size: cover;
+  z-index: 30;
+}
+
+.slide-wrapper.verde .pote {
+  right: 0;
+  width: 63%;
+}
+
+.fade-opacity {
+  -webkit-animation-name: fade-opacity;
+          animation-name: fade-opacity;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes fade-opacity {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-opacity {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-carousel {
+  -webkit-animation-name: fade-carousel;
+          animation-name: fade-carousel;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes fade-carousel {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes fade-carousel {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+/*# sourceMappingURL=main.css.map */
