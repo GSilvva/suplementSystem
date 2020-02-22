@@ -82,7 +82,7 @@ $verde: #BCE649;
           }
 }
 .slide-wrapper.azul {
-     background: url(./azul/bg-azul.jpg);
+     background: url('/azul/bg-azul.jpg');
      background-size: cover;
      z-index: 50;
           .pote {
@@ -90,7 +90,7 @@ $verde: #BCE649;
           }
 }
 .slide-wrapper.roxo {
-     background: url(./roxo/bg-roxo.jpg);
+     background: url('/roxo/bg-roxo.jpg');
      background-size: cover;
      z-index: 40;
           .pote {
@@ -99,7 +99,7 @@ $verde: #BCE649;
           }
 }
 .slide-wrapper.verde {
-     background: url(./verde/bg-verde.jpg);
+     background: url('/verde/bg-verde.jpg');
      background-size: cover;
      z-index: 30;
           .pote {
