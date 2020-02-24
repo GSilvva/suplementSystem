@@ -113,8 +113,8 @@ $verde: #BCE649;
      animation-duration: 1s;
 }
 @keyframes fade-opacity {
-     from { opacity: .5; }
-     to { opacity: 1; }
+     from { transform: translateY(-100%); }
+     to { transform: translateY(0); }
 }
 .fade-carousel {
      animation-name: fade-carousel;
