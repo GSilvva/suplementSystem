@@ -7,24 +7,52 @@
      <link rel="stylesheet" href="./css/main.css">
      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700i,900&display=swap" rel="stylesheet">
      <script src="https://kit.fontawesome.com/9e4cedd9cd.js" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 </head>
 <body>
+
+     <img class="logo" src="logo.png" width="8%">
      
      <div class="container">
 
-          <div class="slide-wrapper fade-opacity azul">
+          <div class="slide-wrapper fade-opacity azul" style="background: url('./azul/bg-azul.jpg');">
+
+               <div class="text">
+
+                    <h1>L-CARNITINA</h1>
+                    <h3>(200g)</h3>
+                    <div class="line"></div>
+                    <h2 class="preco"><span>R$</span>54,00</h2>
+                    <button class="buy-btn">
+                         <a href="#">Buy now</a>
+                         <div class="icon"><i class="fas fa-shopping-cart cart"></i></div>
+                    </button>
+
+               </div>
 
                <div class="suplemento">
                     <img class="particles-frente fade-carousel" src="./azul/particles-frente.png">
                     <img class="pote fade-carousel" src="./azul/pote-azul.png">
                     <img class="luz-bg fade-carousel" src="./azul/luz-bg.png">
-                    <img class="particles-tras fade-carousel" src="./azul/particles-tras.png">
+                    <img class="particles-tras fade-carousel movimentation" src="./azul/particles-tras.png">
                </div>
 
           </div>
 
-          <div class="slide-wrapper fade-opacity roxo">
+          <div class="slide-wrapper fade-opacity roxo" style="background: url('./roxo/bg-roxo.jpg');">
+
+               <div class="text">
+
+                    <h1>CREATINA <span>MONOHIDRATADA</span></h1>
+                    <h3>(250g)</h3>
+                    <div class="line"></div>
+                    <h2 class="preco"><span>R$</span>65,00</h2>
+                    <button class="buy-btn">
+                         <a href="#">Buy now</a>
+                         <div class="icon"><i class="fas fa-shopping-cart cart"></i></div>
+                    </button>
+
+               </div>
 
                <div class="suplemento">
                     <img class="particles-frente fade-carousel" src="./roxo/particles-frente.png">
@@ -34,7 +62,20 @@
 
           </div>
 
-          <div class="slide-wrapper fade-opacity verde">
+          <div class="slide-wrapper fade-opacity verde" style="background: url('./verde/bg-verde.jpg');">
+
+               <div class="text">
+
+                    <h1>CREATINA <span>MONOHIDRATADA</span></h1>
+                    <h3>(300g)</h3>
+                    <div class="line"></div>
+                    <h2 class="preco"><span>R$</span>76,00</h2>
+                    <button class="buy-btn">
+                         <a href="#">Buy now</a>
+                         <div class="icon"><i class="fas fa-shopping-cart cart"></i></div>
+                    </button>
+
+               </div>
 
                <div class="suplemento">
                     <img class="particles-frente fade-carousel" src="./verde/particles-frente.png">
@@ -45,13 +86,18 @@
 
           </div>
 
-          <div class="dots">
-               <div class="dot azul" onclick="currentSlide(1)"></div>
-               <div class="dot roxo" onclick="currentSlide(2)"></div>
-               <div class="dot verde" onclick="currentSlide(3)"></div>
+          <div class="container-dots">
+               <p>NAVEGUE PELOS ITENS ABAIXO:</p>
+               <div class="dots">
+                    <div class="dot azul" onclick="currentSlide(1)"></div>
+                    <div class="dot roxo" onclick="currentSlide(2)"></div>
+                    <div class="dot verde" onclick="currentSlide(3)"></div>
+               </div>
           </div>
 
      </div>
+
+     
 
 <script src="./js/script.js"></script>
 </body>
