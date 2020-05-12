@@ -317,40 +317,4 @@ a {
           transform: translateX(-50%);
   z-index: 200;
 }
-
-/* MODAL */
-.modal-cadastro {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  z-index: 999;
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-transition: .4s;
-  transition: .4s;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.modal-cadastro.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-.container-modal {
-  width: 400px;
-  height: calc(100% - 200px);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background: #ffffff;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.close {
-  cursor: pointer;
-  color: #e20628 !important;
-  font-size: 18px;
-  margin: 16px;
-}
 /*# sourceMappingURL=main.css.map */

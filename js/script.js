@@ -7,9 +7,9 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slide-wrapper");
-  var dots = document.getElementsByClassName("dot");
+  let i;
+  let slides = document.getElementsByClassName("slide-wrapper");
+  let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
     slideIndex = 1
   }
