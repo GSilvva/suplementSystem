@@ -8,7 +8,6 @@ Esse projeto constitui em um sistema de vendas de uma loja de suplementos fictí
 
 ## Pendências 
 - Implementar sistema de login
-- Adicionar Passo-a-passo checkout da compra
 
 ## License
 MIT
