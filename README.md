@@ -7,7 +7,7 @@ Esse projeto constitui em um sistema de vendas de uma loja de suplementos fictí
 - Vanilla Javascript
 
 ## Pendências 
-- Implementar sistema de login
+- Implementar validação de formulário.
 
 ## License
 MIT
